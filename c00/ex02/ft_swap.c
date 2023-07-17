@@ -13,6 +13,7 @@ int main()
     int x=3;
     int y=9;
     ft_swap(&x,&y);
-    printf("x=%d && y=%d ",x,y);
+    write (1,ft_swap, 1);
+    //printf("x=%d && y=%d ",x,y);
     return 0;
 }
